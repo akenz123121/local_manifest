@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<!-- fetching sources -->      
+
+        <remote name="akenz123121"
+                fetch="https://github.com/akenz123121" />
+    
+         
+<!-- device trees -->
+
+        <project path="device/realme/RMX2185" name="device_realme_RMX2185" remote="akenz123121" revision="A12" />
+        <project path="vendor/realme/RMX2185" name="vendor_realme_RMX2185" remote="akenz123121" revision="twelve" />
+        <project path="kernel/realme/RMX2185" name="android_kernel_realme_mt6765" remote="akenz123121" revision="Chisato" clone-depth="1" />
+
+</manifest>
